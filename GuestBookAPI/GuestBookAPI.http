@@ -1,0 +1,2 @@
+@GuestBookAPI_HostAddress = http://localhost:5197/GuestBook
+
