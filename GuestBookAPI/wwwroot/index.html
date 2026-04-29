@@ -3,36 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moje první kniha návštěv</title>
-    
+    <title>Moje kniha návštěv</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="content">
-    <h1>Moje kniha návštěv</h1>
-    <p>Vítejte v mé knize návštěv! Zde můžete zanechat svůj vzkaz.</p>
+<div class="main">
+    <div class="content">
+        <h1>Moje kniha návštěv</h1>
+        <p>Vítejte v mé knize návštěv! Zde můžete zanechat svůj vzkaz.</p>
 
-    <form id="guestbook-form">
-        <label for="name">Jméno:</label>
-        <input type="text" id="name" name="name" required>
+        <form id="guestbook-form">
+            <label for="name">Jméno:</label>
+            <input type="text" id="name" name="name" required>
 
-        <label for="message">Vzkaz:</label>
-        <textarea id="message" name="message" required></textarea>
+            <label for="message">Vzkaz:</label>
+            <textarea id="message" name="message" required></textarea>
 
-        <button type="submit" onclick="">Odeslat</button>
-        
-        <p class="info">Podmínky použití <a href="#">zde</a></p>
-    </form>
+            <button type="button" onclick="sendMessage()">Odeslat</button>
+
+            <p class="info">Podmínky použití <a href="https://veil-occupation-652.notion.site/Podm-nky-pro-pou-it-Moje-kniha-n-v-t-v-3512e681ad7880199871c9c9e14ca464?source=copy_link" target="_blank">zde</a></p>
+        </form>
+    </div>
 
     <div id="guestbook">
-        <table>
-
-        </table>
+        <div>
+            <table>
+                <thead>
+                <tr>
+                    <th>Jméno</th>
+                    <th>Vzkaz</th>
+                    <th>Datum</th>
+                </tr>
+                </thead>
+                    <tbody id="guestbook-table">
+                </tbody>
+            </table>
+        </div>
     </div>
 </div>
-    
 
-    <script src="script.js"></script>
+<footer class="footer">
+    <p>© 2026 Moje kniha návštěv | Vytvořil <a href="https://jakub-hosek.cz/" target="_blank">Jakub Hošek</a></p>
+    <p>Všechna práva vyhrazena</p>
+</footer>
+
 </body>
 </html>

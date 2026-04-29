@@ -36,5 +36,6 @@ C:\Users\jakub\RiderProjects\GuestBookAPI\GuestBookAPI\bin\Debug\net10.0\Swashbu
 C:\Users\jakub\RiderProjects\GuestBookAPI\GuestBookAPI\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\jakub\RiderProjects\GuestBookAPI\GuestBookAPI\bin\Debug\net10.0\GuestBookAPI.staticwebassets.runtime.json
 C:\Users\jakub\RiderProjects\GuestBookAPI\GuestBookAPI\obj\Debug\net10.0\GuestBookAPI.sourcelink.json
-C:\Users\jakub\RiderProjects\GuestBookAPI\GuestBookAPI\obj\Debug\net10.0\compressed\9f8jqg9yrw-{0}-11vy8ngyxy-11vy8ngyxy.gz
-C:\Users\jakub\RiderProjects\GuestBookAPI\GuestBookAPI\obj\Debug\net10.0\compressed\3hw74dvghq-{0}-rgrt1ajefz-rgrt1ajefz.gz
+C:\Users\jakub\RiderProjects\GuestBookAPI\GuestBookAPI\obj\Debug\net10.0\compressed\ukl6vtd73f-{0}-5ipweew5fc-5ipweew5fc.gz
+C:\Users\jakub\RiderProjects\GuestBookAPI\GuestBookAPI\obj\Debug\net10.0\compressed\9f8jqg9yrw-{0}-zyvcpghlll-zyvcpghlll.gz
+C:\Users\jakub\RiderProjects\GuestBookAPI\GuestBookAPI\obj\Debug\net10.0\compressed\3hw74dvghq-{0}-x7k6il3w00-x7k6il3w00.gz

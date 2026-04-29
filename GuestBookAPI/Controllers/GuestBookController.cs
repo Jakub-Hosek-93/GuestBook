@@ -18,7 +18,7 @@ public class GuestBookController : Controller
     public List<RecordModel> ShowGuestBookEntries()
     {
         return _guestBookEntries;
-    }
+    }   
     
     [HttpPost]
     public RecordModel AddRecord(RecordModel record)

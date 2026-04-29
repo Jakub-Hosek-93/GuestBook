@@ -6,31 +6,40 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    min-height: 100vh;
-    padding: 20px;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.main {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    min-height: 80vh;
+    width: 100%;
+    gap: 100px;
 }
 
 .content {
     background: white;
-    max-width: 600px;
-    width: 100%;
-    padding: 40px;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    text-align: center;
+    max-width: 800px;
+    padding-inline: 80px;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
 
 h1 {
-    color: darkcyan;
+    color: #000000;
     text-align: center;
     margin-bottom: 10px;
-    font-size: 35px;
+    font-size: 50px;
 }
 
-p {
+.content p {
     color: black;
+    font-size: 20px;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -49,7 +58,6 @@ textarea {
     padding: 12px;
     border-radius: 8px;
     font-size: 16px;
-    transition: border-color 0.3s;
 }
 
 textarea {
@@ -80,6 +88,7 @@ button:hover {
     color: black;
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .info a {
@@ -91,5 +100,50 @@ button:hover {
     text-decoration: underline;
 }
 
+
+.guestbook {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    width: 1000px;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+th, td {
+    padding: 20px;
+    text-align: left;
+}
+
+th {
+    background-color: #bcbcbc;
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 80px;
+    text-align: center;
+    background: #233240;
+    color: #fff;
+    padding: 2rem;
+}
+
+.footer p {
+    color: white;
+}
+
+.footer a {
+    color: #408d99;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
 
 
