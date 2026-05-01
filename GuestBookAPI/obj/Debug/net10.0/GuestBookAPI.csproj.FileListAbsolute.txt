@@ -37,5 +37,5 @@ C:\Users\jakub\RiderProjects\GuestBookAPI\GuestBookAPI\bin\Debug\net10.0\Swashbu
 C:\Users\jakub\RiderProjects\GuestBookAPI\GuestBookAPI\bin\Debug\net10.0\GuestBookAPI.staticwebassets.runtime.json
 C:\Users\jakub\RiderProjects\GuestBookAPI\GuestBookAPI\obj\Debug\net10.0\GuestBookAPI.sourcelink.json
 C:\Users\jakub\RiderProjects\GuestBookAPI\GuestBookAPI\obj\Debug\net10.0\compressed\ukl6vtd73f-{0}-5ipweew5fc-5ipweew5fc.gz
-C:\Users\jakub\RiderProjects\GuestBookAPI\GuestBookAPI\obj\Debug\net10.0\compressed\9f8jqg9yrw-{0}-zyvcpghlll-zyvcpghlll.gz
-C:\Users\jakub\RiderProjects\GuestBookAPI\GuestBookAPI\obj\Debug\net10.0\compressed\3hw74dvghq-{0}-x7k6il3w00-x7k6il3w00.gz
+C:\Users\jakub\RiderProjects\GuestBookAPI\GuestBookAPI\obj\Debug\net10.0\compressed\9f8jqg9yrw-{0}-wvpeas8u77-wvpeas8u77.gz
+C:\Users\jakub\RiderProjects\GuestBookAPI\GuestBookAPI\obj\Debug\net10.0\compressed\3hw74dvghq-{0}-h089slw3e1-h089slw3e1.gz
