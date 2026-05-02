@@ -1,0 +1,12 @@
+C:\Users\jakub\AppData\Local\Temp\rider-publish5775963450122435784\GuestBookAPI.exe
+C:\Users\jakub\AppData\Local\Temp\rider-publish5775963450122435784\appsettings.Development.json
+C:\Users\jakub\AppData\Local\Temp\rider-publish5775963450122435784\appsettings.json
+C:\Users\jakub\AppData\Local\Temp\rider-publish5775963450122435784\GuestBookAPI.dll
+C:\Users\jakub\AppData\Local\Temp\rider-publish5775963450122435784\GuestBookAPI.deps.json
+C:\Users\jakub\AppData\Local\Temp\rider-publish5775963450122435784\GuestBookAPI.runtimeconfig.json
+C:\Users\jakub\AppData\Local\Temp\rider-publish5775963450122435784\GuestBookAPI.pdb
+C:\Users\jakub\AppData\Local\Temp\rider-publish5775963450122435784\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\jakub\AppData\Local\Temp\rider-publish5775963450122435784\Microsoft.OpenApi.dll
+C:\Users\jakub\AppData\Local\Temp\rider-publish5775963450122435784\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\jakub\AppData\Local\Temp\rider-publish5775963450122435784\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\jakub\AppData\Local\Temp\rider-publish5775963450122435784\Swashbuckle.AspNetCore.SwaggerUI.dll

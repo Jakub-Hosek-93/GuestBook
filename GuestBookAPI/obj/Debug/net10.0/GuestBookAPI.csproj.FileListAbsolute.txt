@@ -38,4 +38,4 @@ C:\Users\jakub\RiderProjects\GuestBookAPI\GuestBookAPI\bin\Debug\net10.0\GuestBo
 C:\Users\jakub\RiderProjects\GuestBookAPI\GuestBookAPI\obj\Debug\net10.0\GuestBookAPI.sourcelink.json
 C:\Users\jakub\RiderProjects\GuestBookAPI\GuestBookAPI\obj\Debug\net10.0\compressed\3hw74dvghq-{0}-h089slw3e1-h089slw3e1.gz
 C:\Users\jakub\RiderProjects\GuestBookAPI\GuestBookAPI\obj\Debug\net10.0\compressed\9f8jqg9yrw-{0}-8y8zfeb16o-8y8zfeb16o.gz
-C:\Users\jakub\RiderProjects\GuestBookAPI\GuestBookAPI\obj\Debug\net10.0\compressed\ukl6vtd73f-{0}-fdhazrm0us-fdhazrm0us.gz
+C:\Users\jakub\RiderProjects\GuestBookAPI\GuestBookAPI\obj\Debug\net10.0\compressed\ukl6vtd73f-{0}-qncauhlfwu-qncauhlfwu.gz
