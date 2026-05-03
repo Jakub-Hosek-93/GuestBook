@@ -1,3 +1,6 @@
+using GuestBookAPI.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +9,8 @@ builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddDbContext<GuestBookContext>(options => options.UseSqlite("Data Source=guestbook.db"));
 
 var app = builder.Build();
 

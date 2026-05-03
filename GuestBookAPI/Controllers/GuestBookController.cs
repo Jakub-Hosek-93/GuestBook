@@ -1,4 +1,5 @@
 using GuestBookAPI.Models;
+using GuestBookAPI.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GuestBookAPI.Controllers;
@@ -7,28 +8,27 @@ namespace GuestBookAPI.Controllers;
 [Route("")]
 public class GuestBookController : Controller
 {
-    // Database
-    private static List<RecordModel> _guestBookEntries = new()
+    private readonly GuestBookContext _context;
+    
+    public GuestBookController(GuestBookContext context)
     {
-        new RecordModel { ID = 1, Name = "Systém", Text = "Vítejte v naší knize vzkazů!", Date =  new DateTime(2021, 05, 01) },
-        new RecordModel { ID = 2, Name = "Admin", Text = "Tohle je testovací zpráva.", Date = new DateTime(2021, 09, 01) },
-    };
+        _context = context;
+    }
     
     [HttpGet]
     public List<RecordModel> ShowGuestBookEntries()
     {
-        return _guestBookEntries;
+        return _context.records.ToList();
     }   
     
     [HttpPost]
     public RecordModel AddRecord(RecordModel record)
     {
-        record.ID = _guestBookEntries.Count + 1;
         record.Date = DateTime.Now;
         
-        _guestBookEntries.Add(record);
+        _context.records.Add(record);
+        _context.SaveChanges();
 
         return record;
-
     }
 }
